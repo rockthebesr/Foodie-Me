@@ -13,6 +13,7 @@
 		5F0447E81F4BF5B7000925C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0447E71F4BF5B7000925C8 /* Assets.xcassets */; };
 		5F0447EB1F4BF5B7000925C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0447E91F4BF5B7000925C8 /* LaunchScreen.storyboard */; };
 		5F0447F61F4BF5B7000925C8 /* Foodie_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0447F51F4BF5B7000925C8 /* Foodie_MeTests.swift */; };
+		5F4FF14F1F4E9357001B18C6 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FF14E1F4E9357001B18C6 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5F0447F11F4BF5B7000925C8 /* Foodie MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foodie MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0447F51F4BF5B7000925C8 /* Foodie_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodie_MeTests.swift; sourceTree = "<group>"; };
 		5F0447F71F4BF5B7000925C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4FF14E1F4E9357001B18C6 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5F0447E01F4BF5B7000925C8 /* AppDelegate.swift */,
 				5F0447E21F4BF5B7000925C8 /* ViewController.swift */,
+				5F4FF14E1F4E9357001B18C6 /* RatingControl.swift */,
 				5F0447E41F4BF5B7000925C8 /* Main.storyboard */,
 				5F0447E71F4BF5B7000925C8 /* Assets.xcassets */,
 				5F0447E91F4BF5B7000925C8 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F0447E31F4BF5B7000925C8 /* ViewController.swift in Sources */,
+				5F4FF14F1F4E9357001B18C6 /* RatingControl.swift in Sources */,
 				5F0447E11F4BF5B7000925C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				5F0447FC1F4BF5B7000925C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F0447FD1F4BF5B7000925C8 /* Build configuration list for PBXNativeTarget "Foodie MeTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				5F0447FF1F4BF5B7000925C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
